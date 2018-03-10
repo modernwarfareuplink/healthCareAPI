@@ -60,7 +60,7 @@ def welcome():
 
 @app.route("/about/")
 def about():
-	return jsonify('CREDITS : Arun, Deepak, Riaz Ahmed, Gopal')
+	return jsonify('CREDITS : Arun,Riaz Ahmed')
 
 @app.route('/signup/', methods= ['GET', 'POST'])
 def signup():
